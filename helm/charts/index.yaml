@@ -2,6 +2,24 @@ apiVersion: v1
 entries:
   nack:
   - apiVersion: v2
+    appVersion: 0.16.1
+    created: "2025-02-07T03:51:17.181191306Z"
+    description: A Helm chart for NACK
+    digest: 54959090a7628941672646521e619b645053df8c715a120a4994e3a59c8532f4
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - jetstream
+    - cncf
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nack
+    urls:
+    - https://github.com/ianarsenault/k8s/releases/download/nack-0.27.1/nack-0.27.1.tgz
+    version: 0.27.1
+  - apiVersion: v2
     appVersion: 0.16.0
     created: "2024-09-25T16:31:10.003363044Z"
     description: A Helm chart for NACK
@@ -470,6 +488,26 @@ entries:
     - https://github.com/nats-io/k8s/releases/download/v0.6.0/nack-0.6.0.tgz
     version: 0.6.0
   nats:
+  - apiVersion: v2
+    appVersion: 2.10.25
+    created: "2025-02-07T03:51:17.334598313Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: 7f5e99e8d636829546e336afec2f6f93d9940512cce3fe746ff02c594f39ba6e
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nats
+    urls:
+    - https://github.com/ianarsenault/k8s/releases/download/nats-1.2.10/nats-1.2.10.tgz
+    version: 1.2.10
   - apiVersion: v2
     appVersion: 2.10.20
     created: "2024-09-25T16:31:10.176585835Z"
@@ -2841,6 +2879,20 @@ entries:
     version: 0.2.0
   surveyor:
   - apiVersion: v2
+    appVersion: 0.7.1
+    created: "2025-02-07T03:51:17.546660676Z"
+    description: NATS Monitoring, Simplified.
+    digest: eaea79f1171239d4449e2cf773bbb0dddae2e0f2b7aef2420762e71c162438b1
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: surveyor
+    type: application
+    urls:
+    - https://github.com/ianarsenault/k8s/releases/download/surveyor-0.18.1/surveyor-0.18.1.tgz
+    version: 0.18.1
+  - apiVersion: v2
     appVersion: 0.6.0
     created: "2024-08-30T01:27:14.844325076Z"
     description: NATS Monitoring, Simplified.
@@ -2998,4 +3050,4 @@ entries:
     urls:
     - https://github.com/nats-io/k8s/releases/download/v0.9.2/surveyor-0.9.2.tgz
     version: 0.9.2
-generated: "2024-09-25T16:31:10.177086151Z"
+generated: "2025-02-07T03:51:17.547142999Z"
